@@ -1,0 +1,31 @@
+.site-nav {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 700;
+color: #cc0000;
+  display: flex;
+
+  padding: 0;
+
+  list-style: none;
+
+  text-transform: uppercase;
+}
+
+.site-nav__item {
+  display: flex;
+
+  width: 150px;
+
+  text-align: center;
+
+  justify-content: center;
+}
+
+.site-nav__item:not(:last-of-type) {
+  border-right: 2px solid brown;
+}
+
+.site-nav__link {
+  padding: 5px;
+}
