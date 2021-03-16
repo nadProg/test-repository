@@ -1,0 +1,26 @@
+.socials {
+  font-family: monospace;
+  font-size: 1.2em;
+
+  display: flex;
+
+  padding: 0;
+
+  list-style: none;
+
+  justify-content: center;
+}
+
+.socials__item {
+  margin: 0;
+}
+
+.socials__item:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+.socials__link {
+  display: block;
+
+  padding: 2px 5px;
+}

@@ -12,7 +12,10 @@
   color: #800;
 }
 
-
 .footer__contacts {
   margin: 0 auto;
+}
+
+.footer__socials {
+  margin: 0;
 }
