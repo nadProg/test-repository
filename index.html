@@ -58,12 +58,12 @@
       <div class="container">
         <h2>Order</h2>
         <p>Just leave you name and phone number and we will call you as soon as possible</p>
-        <form class="order__form order-form" action="#" method="POST">
+        <form class="order__form order-form" name="order-form" action="#" method="POST">
           <label>
-            Name: <input type="text" required>
+            Name: <input name="name" type="text" required>
           </label>
           <label>
-            Phone number: <input type="tel" required>
+            Phone number: <input name="phone" type="tel" required>
           </label>
           <button class="order-form__submit-btn btn" type="submit">Call me</button>
         </form>
