@@ -1,0 +1,14 @@
+.contacts {
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.contacts dt,
+.contacts dd {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts dd {
+  margin-bottom: 10px;
+}

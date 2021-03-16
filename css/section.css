@@ -1,0 +1,26 @@
+.section {
+  margin: 50px 0;
+
+  color: #444;
+}
+
+.section h2,
+.section p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-family: monospace;
+  font-size: 24px;
+color: #880000;
+  margin-bottom: .5em;
+  padding-left: 40px;
+}
+
+.section p {
+  font-style: italic;
+  line-height: 1.5em;
+
+  text-indent: 20px;
+}

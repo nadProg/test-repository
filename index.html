@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Title</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-  
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav nav">
+        <ul class="nav__site-nav site-nav">
+          <li class="site-nav__item">
+            <a class="site-nav__link link" href="index.html">Main</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link link" href="index.html#promo">Promo</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link link" href="index.html#about-us">About us</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link link" href="index.html#order">Order</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link link" href="index.html#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <h1 class="visually-hidden">Main header</h1>
+    <section class="main__promo promo section" id="promo">
+      <div class="container">
+        <h2 class="promo__title title">Promo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at, illum est fugit similique. Atque nemo eveniet nobis minus, quod facilis molestias, rerum error neque similique eaque ratione amet sunt?</p>
+        <p>In ipsa cumque eaque hic eveniet rem, alias aliquam soluta, quas. Quas vitae ea neque optio iste velit, omnis veniam in, facilis quibusdam, debitis ipsa rem, aperiam. Voluptatum totam, tempora.</p>
+        <p>Ipsum, ducimus ab, ratione repudiandae fugiat nihil laborum. A provident fugit perspiciatis error libero commodi officiis rerum, blanditiis vitae expedita fugiat molestiae illum deserunt architecto totam repudiandae doloribus cupiditate asperiores.</p>
+        <p>Esse expedita consectetur inventore quas non voluptatum modi perferendis. Nobis temporibus quam molestiae excepturi libero velit iste officiis et tenetur ut aliquam ducimus reprehenderit sed ullam in, quia animi deleniti.</p>
+        <p>Eos, magni! Veritatis deleniti earum qui consectetur velit, autem cupiditate modi quaerat sunt sed aspernatur corporis porro asperiores sit doloribus. Doloribus ut illo enim eum, voluptates. Nemo error rem, culpa.</p>
+      </div>
+    </section>
+    <section class="main__about-us about-us section" id="about-us">
+      <div class="container">
+        <h2 class="about-us__title title">About us</h2>
+        <p>Eos, magni! Veritatis deleniti earum qui consectetur velit, autem cupiditate modi quaerat sunt sed aspernatur corporis porro asperiores sit doloribus. Doloribus ut illo enim eum, voluptates. Nemo error rem, culpa.</p>
+        <p>Esse expedita consectetur inventore quas non voluptatum modi perferendis. Nobis temporibus quam molestiae excepturi libero velit iste officiis et tenetur ut aliquam ducimus reprehenderit sed ullam in, quia animi deleniti.</p>
+        <p>Ipsum, ducimus ab, ratione repudiandae fugiat nihil laborum. A provident fugit perspiciatis error libero commodi officiis rerum, blanditiis vitae expedita fugiat molestiae illum deserunt architecto totam repudiandae doloribus cupiditate asperiores.</p>
+        <p>In ipsa cumque eaque hic eveniet rem, alias aliquam soluta, quas. Quas vitae ea neque optio iste velit, omnis veniam in, facilis quibusdam, debitis ipsa rem, aperiam. Voluptatum totam, tempora.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at, illum est fugit similique. Atque nemo eveniet nobis minus, quod facilis molestias, rerum error neque similique eaque ratione amet sunt?</p>
+      </div>
+    </section>
+    <section class="main__order order section" id="order">
+      <div class="container">
+        <h2>Order</h2>
+        <p>Just leave you name and phone number and we will call you as soon as possible</p>
+        <form class="order__form order-form" action="#" method="POST">
+          <label>
+            Name: <input type="text" required>
+          </label>
+          <label>
+            Phone number: <input type="tel" required>
+          </label>
+          <button class="order-form__submit-btn btn" type="submit">Call me</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <h2 class="footer__title title">Contacts</h2>
+        <dl class="footer__contacts contacts" id="contacts">
+          <dt>Address</dt>
+          <dd><address>24 Green Street, George Town, North Dakota</address></dd>
+          <dt>Phone</dt>
+          <dd><a class="link" href="tel:+1234567890">+1-234-567-890</a></dd>
+          <dt>E-mail</dt>
+          <dd><a class="link" href="email:email@email.com">email@email.com</a></dd>
+        </dl>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright copyright">Copyright &copy; 2021</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
