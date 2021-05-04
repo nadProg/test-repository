@@ -40,3 +40,13 @@
 
   align-self: center;
 }
+
+label.order-form__subscribe {
+  justify-content: center;
+  margin: 10px auto 0;
+}
+
+.order-form__subscribe input {
+  width: auto;
+  margin-right: 10px;
+}
